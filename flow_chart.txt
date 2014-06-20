@@ -1,0 +1,10 @@
+What Steps Would You Take To Get To The Output?
+
+
+Step1:initialize timer(import timer)
+
+Step2:countdown two hours(set timer)
+
+Step3:open web page or display other output as desired(put favorite url)
+
+Step4:reset timer and countdown again(reset timer)
