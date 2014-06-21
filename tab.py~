@@ -11,4 +11,4 @@ while(break_count<total_break):
 	time.sleep(7200)
 	print("Take A Break")
 	webbrowser.open("http://www.youtube.com/watch?v=AKKT7zE_0Zg")
-	break_count += 1
+	break_count +=1
