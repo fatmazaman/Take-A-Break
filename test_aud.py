@@ -1,11 +1,12 @@
-#import wave
-#wave.open('adios.wav','r')
+# First Method
+import pygame
+pygame.mixer.init()
+pygame.mixer.music.load('song.mp3')
+pygame.mixer.music.play()
+while pygame.mixer.music.get_busy() == True:
+    continue
 
+#Second Method
+import os
 
-
-#import os
-#os.startfile('song.mp3')
-
-import subprocess
-PLAYERPATH = "C:/Program Files (x86)/VideoLAN/VLC/vlc.exe"
-subprocess.call([PLAYERPATH, FILEPATH])
+os.system('vlc song.mp3 &')

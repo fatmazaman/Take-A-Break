@@ -6,4 +6,4 @@ going up. If you could only remember to walk away from the computer for a little
 friend who works really long hours on the computer, to listen to music, get up anddance to their favorite song, or just walk away from the computer every once in a while.
 
 Okay. So, I wrote a program called "Take A Break"... 
-But, let me just focus on running it. When I do that, the program starts to keep track of time and after every two hours of work on the computer it opens a browser to play your friend's favorite song.
+But, let me just focus on running it. When I do that, the program starts to keep track of time and after every two hours of work on the computer it opens a interface to play your friend's favorite song, video and also to run the fb login or any other website , even you can see your gf/bf picture.

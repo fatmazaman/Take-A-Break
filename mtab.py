@@ -3,29 +3,28 @@ import simpleguitk as simplegui
 import math
 import random
 import time
-import sound
 import webbrowser
+import os
 
+#Global variables
 message = "Take A Break"
+total_break = 4
+break_count = 0
 
-# Handler for mouse click
-def click():
-    global message
-    message = "Wait"
+#Handler for audio file    
 def click_aud():
-    s = Sound() 
-    s.read('adios.wav') 
-    s.play()
-# Handler for Image
+    os.system('vlc aud.mp3 &')
+
+# Handler for Image file
 def click_img():
-	pass
-    #def draw_handler1(canvas):
-    #    canvas.draw_image(image, (1521 / 2, 1818 / 2), (1521, 1818), (50, 50), (100, 100))
-    #image = simplegui.load_image('http://commondatastorage.googleapis.com/codeskulptor-assets/gutenberg.jpg')
+	os.system('"eog" "Fatma.png"')
     
 #Handler for Website
 def click_url():
-    webbrowser.open("http://www.youtube.com/watch?v=AKKT7zE_0Zg")
+    webbrowser.open("https://www.facebook.com/")
+#Handler for Video file
+def click_vid():
+	os.system('vlc veg_girl.mp4')
 
 
 # Handler to draw on canvas
@@ -34,19 +33,17 @@ def draw(canvas):
 
 # Create a frame and assign callbacks to event handlers
 frame = simplegui.create_frame("Take A Break", 600, 400)
-frame.add_button("Video", click)
-frame.add_button("Audio", click_aud)
-frame.add_button("Image", click_img)
-#frame.set_draw_handler(draw_handler1)
+frame.add_button(" Video ", click_vid)
+frame.add_button(" Audio ", click_aud)
+frame.add_button(" Image ", click_img)
 frame.add_button("Website", click_url)
 frame.set_draw_handler(draw)
 
 # Start the frame animation
-#time.sleep(10)
-frame.start()
-
-
-
+#while(break_count<total_break):
+time.sleep(120)
+frame.start() 
+#	break_count += 1
 
 
 

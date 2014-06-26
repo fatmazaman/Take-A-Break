@@ -2,7 +2,7 @@ What Steps Would You Take To Get To The Output?
 #################################################################
 Step1: want 2 hours
 
-Step2: open browser
+Step2: open browser/ open Video/ open audio/ open image
 
 Step3: Step1+Step2 = Repeat 4 times !!!
 
@@ -20,7 +20,26 @@ Step2..
 how to open web browser in python
 
    ---> import webbrowser
-        webbrowser.open("url")    
+        webbrowser.open("url")   
+
+how to open vidoe in python
+
+   --->import os
+       os.system('vlc veg_girl.mp4')
+
+how to open audio in python
+
+
+   --->import os
+       os.system('vlc aud.mp3 &')
+
+how to open image in python
+
+   --->import os
+       os.system('"eog" "Fatma.png"')        
+
+
+
 ##################################################################
 Step3..
   
@@ -28,3 +47,4 @@ Step3..
 
         --->while (expression):
                statement(s)
+######################  THE END  #################################

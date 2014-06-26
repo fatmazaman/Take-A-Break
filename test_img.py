@@ -1,13 +1,24 @@
-import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
-import simpleguitk as simplegui
+#import Image
+#import pygame, sys
+#from pygame.locals import *
 
+#pygame.init()
 
+#catImg = Image.open("Fatma.png")
+#import os
+#os.system('Image-viewer Fatma.png &')
 
-def draw_handler(canvas):
-    canvas.draw_image(image, (1521 / 2, 1818 / 2), (1521, 1818), (50, 50), (100, 100))
+#global ext
+#ext = ".pngg"
 
-image = simplegui.load_image('http://commondatastorage.googleapis.com/codeskulptor-assets/gutenberg.jpg')
+#imageFile = "Fatma.png"
+#im1 = Image.open(imageFile)
 
-frame = simplegui.create_frame('Testing', 100, 100)
-frame.set_draw_handler(draw_handler)
-frame.start()
+#from PIL import Image
+
+#...
+
+#img = Image.open("Guitar.jpg")
+#img.show()
+import os
+os.system('"eog" "Guitar.jpg"')
