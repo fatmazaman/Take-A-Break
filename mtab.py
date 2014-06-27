@@ -8,8 +8,6 @@ import os
 
 #Global variables
 message = "Take A Break"
-total_break = 4
-break_count = 0
 
 #Handler for audio file    
 def click_aud():
@@ -40,10 +38,8 @@ frame.add_button("Website", click_url)
 frame.set_draw_handler(draw)
 
 # Start the frame animation
-#while(break_count<total_break):
-time.sleep(120)
+time.sleep(12)
 frame.start() 
-#	break_count += 1
 
 
 
