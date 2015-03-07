@@ -11,19 +11,19 @@ message = "Take A Break"
 
 #Handler for audio file    
 def click_aud():
-    os.system('vlc aud.mp3 &')
+    os.system('/Applications/VLC.app/Contents/MacOS/VLC aud.mp3')
 
-# Handler for Image file
+#Handler for Image file
 def click_img():
 	os.system('"eog" "Fatma.png"')
     
 #Handler for Website
 def click_url():
     webbrowser.open("https://www.facebook.com/")
+
 #Handler for Video file
 def click_vid():
-	os.system('vlc veg_girl.mp4')
-
+	os.system('/Applications/VLC.app/Contents/MacOS/VLC veg_girl.mp4 now')
 
 # Handler to draw on canvas
 def draw(canvas):
@@ -38,7 +38,7 @@ frame.add_button("Website", click_url)
 frame.set_draw_handler(draw)
 
 # Start the frame animation
-time.sleep(12)
+time.sleep(1)# set the timer value is seconds
 frame.start() 
 
 

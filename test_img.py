@@ -11,8 +11,8 @@
 #global ext
 #ext = ".pngg"
 
-#imageFile = "Fatma.png"
-#im1 = Image.open(imageFile)
+imageFile = "Fatma.png"
+im1 = Image.open(imageFile)
 
 #from PIL import Image
 
@@ -20,5 +20,11 @@
 
 #img = Image.open("Guitar.jpg")
 #img.show()
-import os
-os.system('"eog" "Guitar.jpg"')
+#import os
+#os.system('"eog" "Guitar.jp 
+
+#os.system('/Applications/Preview.app/Contents/MacOS/Preview Fatma.png')
+
+
+
+
