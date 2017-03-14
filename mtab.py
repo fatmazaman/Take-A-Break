@@ -11,19 +11,22 @@ message = "Take A Break"
 
 #Handler for audio file    
 def click_aud():
-    os.system('/Applications/VLC.app/Contents/MacOS/VLC aud.mp3')
+    # os.system('/Applications/VLC.app/Contents/MacOS/VLC aud.mp3')
+    os.system( 'afplay aud.mp3')
 
 #Handler for Image file
 def click_img():
-	os.system('"eog" "Fatma.png"')
+	os.system('"open" "Fatma.png"')
     
 #Handler for Website
 def click_url():
-    webbrowser.open("https://www.facebook.com/")
+    webbrowser.open("https://www.fatmazaman.com/")
 
 #Handler for Video file
 def click_vid():
-	os.system('/Applications/VLC.app/Contents/MacOS/VLC veg_girl.mp4 now')
+	# os.system('/Applications/VLC.app/Contents/MacOS/VLC veg_girl.mp4 now')
+	# os.system( 'afplay veg_girl.mp4')
+	os.system( '"open" "veg_girl.mp4"')
 
 # Handler to draw on canvas
 def draw(canvas):
